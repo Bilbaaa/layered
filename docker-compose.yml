@@ -38,7 +38,7 @@ services:
     depends_on:
       - backend
 
-volumes:
-  uploads:
-  mysql-data:
-    external:true
+  volumes:
+    uploads:
+    mysql-data:
+      external:true
