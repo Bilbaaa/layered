@@ -46,4 +46,4 @@ services:
 volumes:
   uploads:
   mysql-data:
-    external:true
+    external: true
